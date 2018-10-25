@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Grocery Items</title>
+</head>
+<body>
+ 
+    <script src="grocery.js"></script>
+    <script type="text/javascript">
+        for (var i=0, max=items.length; i < max; i++) {
+            // Do something with the element here
+            document.write(items[i].grocery_name + " &nbsp; "+ items[i].grocery_quantity.toString());
+            document.write("<br>");
+        }
+    </script>
+ 
+</body>
+</html>
